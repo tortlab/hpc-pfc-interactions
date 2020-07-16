@@ -8,7 +8,7 @@
 % if no offset is provided, offset = 0 is assumed % offset
 %
 
-function downsample2(inname,outname,numchannel,resampl,offset)
+function downsample(inname,outname,numchannel,resampl,offset)
 
 if nargin <4,
 error('function downsample(inname,outname,numchannel,resampl,offset)');

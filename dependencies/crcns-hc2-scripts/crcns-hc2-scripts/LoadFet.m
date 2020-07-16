@@ -2,14 +2,14 @@
 %
 % A simple matlab function to load a .fet file
 
-function [Fet, nFeatures] = LoadFet(FileName,varargin)
+function [Fet, nFeatures] = LoadFet(FileName,varargin);
 [BufSize, CluSubset] = DefaultArgs(varargin,{inf, []});
 
 
 Fp = fopen(FileName, 'r');
 
 if Fp==-1
-    error(['Could not open file ' FileName]);
+    error(['Could not open file ' lsFileName]);
 end
 
 
