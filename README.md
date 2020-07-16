@@ -1,5 +1,7 @@
 # Hippocampal-Prefrontal Interactions during Spatial Decision-Making
 
+## THIS REPO IS STILL IN BETA VERSION, PLEASE WAIT
+
 Here you can find the matlab scripts to reproduce all the figures on this paper: https://biorxiv.org/content/10.1101/2020.06.24.168732v1 . Questions and suggestions should be sent to lucastavares@neuro.ufrn.br
 
 ## Getting Started
